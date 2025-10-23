@@ -17,8 +17,8 @@ export class Roulette{
   constructor(private api: Api) {}
 
   BgRandom() {
-    const id = this.getRandomNumber(456510);
-    this.api.getGamebyID(id).subscribe({
+    //const id = this.getRandomNumber(456510);
+    this.api.getGameByID(167791).subscribe({
       next: (data) => this.boardgame = data as BoardGame,
       error: (err) => console.error('Erreur API :', err)
     })

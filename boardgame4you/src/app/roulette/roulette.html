@@ -4,7 +4,6 @@
   @if (boardgame) {
     <div class="boardgame-card">
       <h2>{{ boardgame.objectid }} - {{ boardgame.yearpublished }}</h2>
-      <img ngSrc="boardgame.thumbnail" alt="{{ boardgame.description }}" />
 
       <p><strong>Joueurs :</strong> {{ boardgame.minplayers }} - {{ boardgame.maxplayers }}</p>
       <p><strong>Temps de jeu :</strong> {{ boardgame.minplaytime }} - {{ boardgame.maxplaytime }} minutes</p>
@@ -12,8 +11,6 @@
 
       <p><strong>Description :</strong></p>
       <p>{{ boardgame.description }}</p>
-
-      <img ngSrc="boardgame.image" alt="Image du jeu" class="full-image" />
     </div>
   }
 

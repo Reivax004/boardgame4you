@@ -8,6 +8,4 @@ export interface BoardGame {
   maxplaytime: number;
   age: number;
   description: string;
-  thumbnail: string;
-  image: string;
 }
