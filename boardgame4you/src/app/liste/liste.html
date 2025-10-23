@@ -1,0 +1,9 @@
+@for (film of listFors; track film) {
+   <button (click)="selectFilm(film)">
+    {{ film.name }}
+   </button>
+}
+@if (selectedFilm) {
+  {{ selectedFilm.name}}
+  <img [src]="selectedFilm.affiche" alt="image du film">
+}

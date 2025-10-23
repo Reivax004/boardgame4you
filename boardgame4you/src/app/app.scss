@@ -1,0 +1,11 @@
+.content{
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
